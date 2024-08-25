@@ -1,5 +1,0 @@
-COMPATIBLE_MACHINE:beaglebone = "beaglebone"
-KBRANCH:beaglebone = "v6.6/standard/beaglebone"
-KMACHINE:beaglebone ?= "beaglebone"
-SRCREV_machine:beaglebone ?= "06644f0d7193d7ec39d7fe41939a21953e7a0c65"
-LINUX_VERSION:beaglebone = "6.6.21"
