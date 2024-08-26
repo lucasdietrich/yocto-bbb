@@ -105,7 +105,7 @@ pipeline {
                     script {
                         def symlinkFiles = [
                             "images/${params.MACHINE}/${params.IMAGE}-${params.MACHINE}.rootfs.manifest",
-                            "images/${params.MACHINE}/${params.IMAGE}-${params.MACHINE}.rootfs.wic",
+                            "images/${params.MACHINE}/${params.IMAGE}-${params.MACHINE}.rootfs.wic.bz2",
                             "images/${params.MACHINE}/${params.IMAGE}-${params.MACHINE}.rootfs.tar.bz2",
                         ]
 
