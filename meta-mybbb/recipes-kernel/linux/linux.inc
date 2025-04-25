@@ -3,8 +3,6 @@ SUMMARY = "Kernel for BeagleBone Black"
 inherit kernel
 require recipes-kernel/linux/linux-yocto.inc
 
-FILESEXTRAPATHS:prepend := "${THISDIR}/files/${PV}:"
-
 SRC_URI = "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-${PV}.tar.xz \
     file://defconfig \
     "
