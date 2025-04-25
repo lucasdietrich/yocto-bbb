@@ -12,6 +12,7 @@ IMAGE_INSTALL:append = "\
     os-release \
     ntpd-start \
     packagegroup-bbb-tools \
+    dfu-util \
 "
 
 LICENSE = "CLOSED"
