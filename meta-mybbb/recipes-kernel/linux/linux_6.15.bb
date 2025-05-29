@@ -1,0 +1,6 @@
+require linux.inc
+
+FILESEXTRAPATHS:prepend := "${THISDIR}/files/6.15:"
+
+PV ?= "6.15"
+SRC_URI[sha256sum] = "7586962547803be7ecc4056efc927fb25214548722bd28171172f3599abb9764"

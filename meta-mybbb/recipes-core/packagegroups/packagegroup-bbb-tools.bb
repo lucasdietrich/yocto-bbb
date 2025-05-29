@@ -21,12 +21,10 @@ RDEPENDS:${PN} = "\
     gdbserver \
     git \
     bash-completion \
+    e2fsprogs \
     e2fsprogs-resize2fs \
-    python3 \
-    python3-pytz \
-    python3-aiohttp \
-    python3-requests \
-    python3-requests-oauthlib \
-    python3-pyopenssl \
+    e2fsprogs-mke2fs \
+    e2fsprogs-e2fsck \
     minicom \
+    mmc-utils \
 "
