@@ -27,4 +27,7 @@ RDEPENDS:${PN} = "\
     e2fsprogs-e2fsck \
     minicom \
     mmc-utils \
+    blktool \
+    btrfs-tools \
+    btrfsmaintenance \
 "
